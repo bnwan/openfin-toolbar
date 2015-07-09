@@ -1,0 +1,24 @@
+@import 'yeticss'
+
+body
+  border: 10px solid $gray-lighter
+
+header
+  margin-top: 30px
+.badge
+	position: relative
+
+.badge[data-badge]:after
+	content: attr(data-badge)
+  position: absolute
+  top: -15px
+  right: -7px
+  font-size: 0.7em
+  background: #FF0000
+  color: #ffffff
+  width: 18px
+  height: 18px
+  text-align: center
+  line-height: 18px
+  border-radius: 50%
+  box-shadow: 0 0 5px #333

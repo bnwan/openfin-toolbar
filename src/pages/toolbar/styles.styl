@@ -1,0 +1,38 @@
+body
+  background-color: #212A35
+  border: 10px solid #212A35
+
+.toolbar
+  width: 100%  
+  ul.actions
+    padding: 5px
+    margin: 0px
+
+    .menu-items
+      float: right
+
+    li
+      display: inline-block
+      margin-right: 12px
+      cursor: pointer;
+
+      &:last-child
+        margin-right: 0px
+
+      &.logo
+        border-right: 0px solid silver
+        text-align: center
+        padding-top: 5px
+        padding-bottom: 2px
+
+        &:hover
+          background-color: red
+          cursor: move
+
+      &.arrow
+        text-align: right
+        padding-top: 5px
+        padding-bottom: 2px
+        a
+          position: relative
+          bottom: 4px

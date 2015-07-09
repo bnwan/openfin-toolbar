@@ -1,0 +1,22 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "Openfin App Local",
+        "uuid": "Openfin-App-Local",
+        "url": "http://localhost:3000",
+        "applicationIcon": "http://localhost:3000/images/openfin-sample_mark_250x.png",
+        "autoShow": true,
+        "defaultWidth": 800,
+        "defaultHeight": 600
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "stable"
+    },
+    "shortcut": {
+        "company": "Adaptive Consulting",
+        "description": "Openfin App Local",
+        "icon": "http://localhost:3000/images/openfin-sample_mark_250x.png",
+        "name": "Openfin App Local"
+    }
+}

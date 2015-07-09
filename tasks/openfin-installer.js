@@ -1,0 +1,1 @@
+var openfinInstaller = require('openfin-installer');
