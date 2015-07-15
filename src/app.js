@@ -20,7 +20,6 @@ const Route = Router.Route;
 const DefaultRoute = Router.DefaultRoute;
 
 class App extends React.Component {
-
   render () {
     return (
       <RouterHandler  />
@@ -31,13 +30,11 @@ class App extends React.Component {
 const routes = (
   <Route handler={App}>
     <DefaultRoute handler={Main}></DefaultRoute>
-
     <Route path='toolbar' handler={Toolbar}></Route>
   </Route>
 );
 
 domready(() => {
-
   openFinReadyOrBrowser(() => {
     Router.run(routes, Router.HistoryLocation, (Root) => {
       React.render(<Root />, document.body);
